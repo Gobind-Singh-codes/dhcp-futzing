@@ -1,6 +1,4 @@
-This version refines the flow into a single, cohesive project. I've standardized the directory structures, improved the formatting for GitHub's dark/light modes, and added a "Table of Contents" for better navigation.
 
----
 
 # Lightweight PXE Booting with Alpine Linux & Windows 11
 
@@ -18,9 +16,6 @@ Ensure your host machine has the necessary tools:
 ```bash
 # Ubuntu/Debian
 sudo apt install libvirt-daemon-system virt-manager virt-install python3 samba swtpm ovmf
-
-# Fedora
-sudo dnf install libvirt virt-install python3 samba swtpm edk2-ovmf
 ```
 *   User must be in the `libvirt` group.
 *   A working directory: `mkdir -p ~/pxe-lab && cd ~/pxe-lab`
